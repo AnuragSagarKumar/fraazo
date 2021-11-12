@@ -1,0 +1,85 @@
+.loginBox{
+    width: 290px;
+    height: 330px;
+    border: 1px solid black;
+    margin: auto;
+    border: none;
+    margin-top: 100px;
+    background-color: honeydew;
+    padding: 18px 30px;
+    font-family: sans-serif;
+    border-radius: 25px;
+    /* box-shadow: 0 0 40px 20px rgba(0,0,0,0.26); */
+}
+h3{
+    margin: 0px;
+    margin-top: -5px;
+    padding: 0 0 30px;
+    font-size: 22px;
+}
+
+#signIn {
+    margin-top: -15px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+/* .loginBox input{
+    width: 300px;
+    margin-top: 50px;
+} */
+
+#mobile {
+    border: none;
+    border-bottom: 1px solid rgb(0, 150, 62);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(167, 167, 167);
+    font-size: 13px;
+    font-weight: bold;
+    width: 260px;
+    margin-top: 50px;
+}
+
+
+#submit {
+    width: 150px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    height: 50px;
+    color: black;
+    font-size: 18px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 60px;
+    background: rgb(5, 233, 195);;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background: green;
+    color: rgb(219, 223, 8);
+}
+
+#otp{
+    /* padding-top: 24px; */
+    color: rgb(167, 167, 167);
+}
+#submit{
+    margin-top: 25px;
+}
+#close{
+    margin-top: -40px;
+    margin-left: 280px;
+     font-weight: bold;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+
+}
+#close:hover {
+    cursor: pointer;   
+    background: red;
+}
